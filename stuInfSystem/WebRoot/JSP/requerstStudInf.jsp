@@ -25,15 +25,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     This is my requerstStudInf JSP page. <br>
+     <a href = "HTML/Welcome.html">go to home page</a><br>
     
     <%
-		Enumeration<String> headerNames = request.getHeaderNames();
-  		while( headerNames.hasMoreElements() ){
-  			out.println("--------------------------");
-  			String headerName = headerNames.nextElement();
-  			out.println(headerName + "-->" + request.getHeader(headerName) + "<br>");
-  		}
-  		out.println("<hr/>");
+		//Enumeration<String> headerNames = request.getHeaderNames();
+  		//while( headerNames.hasMoreElements() ){
+  		//	out.println("--------------------------");
+  		//	String headerName = headerNames.nextElement();
+  		//	out.println(headerName + "-->" + request.getHeader(headerName) + "<br>");
+  		//}
+  		//out.println("<hr/>");
 	 %>
 	 <%
 	 	request.setCharacterEncoding("GBK");

@@ -25,6 +25,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     This is my readstudInf JSP page. <br>
+     <a href = "HTML/Welcome.html">go to home page</a><br>
     <%
    			Connection con = null;
 	 		Statement stm = null;
