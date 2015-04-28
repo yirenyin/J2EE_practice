@@ -1,7 +1,7 @@
 ﻿# J2EE_practice
 J2EE 学生信息管理系统初(jian)级(lou)版。by-lyf
 :smile:
-![Alt Text| height = 100px](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
+[[ http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif | height = 100px ]]
 ![](builddatabase.png)
 建立数据库和表格。
 ![](insert.png)
